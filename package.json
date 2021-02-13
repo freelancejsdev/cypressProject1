@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "triggerAllTests-headed":"npx cypress run --headed",
+    "triggerAllTests-chrome":"npx cypress run --browser chrome",
+    "triggerAllTests-cypressBasics":"npx cypress run --browser chrome --spec cypress/integration/cypressBasics/*",
+    "triggerAllTests-testCases":"npx cypress run --browser chrome --spec cypress/integration/testCases/*",
+    "triggerAllTests-apiTesting":"npx cypress run --browser chrome --spec cypress/integration/apiTesting/*",
+    "triggerAllTests-customCommands":"npx cypress run --browser chrome --spec cypress/integration/customCommandsExamples/*",
+    "triggerAllTests-fixturesTests":"npx cypress run --browser chrome --spec cypress/integration/fixturesExamples/*"
   },
   "author": "",
   "license": "ISC",
