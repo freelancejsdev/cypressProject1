@@ -3,6 +3,7 @@ describe('Checkboxes',()=>{
     
     before('Navigate To Url',()=>{
         cy.visit('http://the-internet.herokuapp.com/')
+        
     })
 
     

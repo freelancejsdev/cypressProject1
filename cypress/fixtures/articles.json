@@ -1,0 +1,40 @@
+{
+    "articles": [
+        {
+            "title": "Test",
+            "slug": "test-d7ncrn",
+            "body": "tes",
+            "createdAt": "2021-02-14T07:26:44.725Z",
+            "updatedAt": "2021-02-14T07:26:44.725Z",
+            "tagList": [],
+            "description": "test",
+            "author": {
+                "username": "wilfred@test.com",
+                "bio": null,
+                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+                "following": false
+            },
+            "favorited": false,
+            "favoritesCount": 4
+        },
+        {
+            "title": "TEst",
+            "slug": "test-n7srwl",
+            "body": "test",
+            "createdAt": "2021-02-14T07:26:21.958Z",
+            "updatedAt": "2021-02-14T07:26:21.958Z",
+            "tagList": [],
+            "description": "test",
+            "author": {
+                "username": "wilfred@test.com",
+                "bio": null,
+                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+                "following": false
+            },
+            "favorited": false,
+            "favoritesCount": 5
+        }
+        
+    ],
+    "articlesCount": 500
+}

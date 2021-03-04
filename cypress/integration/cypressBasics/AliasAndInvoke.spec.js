@@ -12,7 +12,8 @@ describe('Working with alias',()=>{
 
        cy.get('@heading1').should('include','New online store is open!') // re using alias with @heading1
        
-       
+      
+
        
      
 
