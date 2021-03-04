@@ -1,5 +1,6 @@
 {
-    "baseUrl":"https://demo.nopcommerce.com/",
-    "viewportWidth": 1536,
-    "viewportHeight": 960
+  "baseUrl": "https://demo.nopcommerce.com/",
+  "viewportWidth": 1536,
+  "viewportHeight": 960,
+  "projectId": "wbfxye"
 }
